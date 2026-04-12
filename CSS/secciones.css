@@ -163,4 +163,10 @@ body {
     .hero-text h1 {
         font-size: 40px;
     }
+    .informacion {
+        padding: 60px;
+    }
+    .cards {
+        grid-template-columns: 1fr;
+    }
 }
