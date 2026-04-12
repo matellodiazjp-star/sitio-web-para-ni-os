@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    line-height: 1.5;
+
+}
+/*--------------seccion 1 ------------*/
+/*------------- header, parte superior------------ */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: transparent;
+}
+.logo {
+   font-weight: bold;
+   font-size: 30px;
+}
+.nav {
+    display: flex;
+    gap: 50px;
+}
+.nav a {
+   text-decoration: none;
+   color: black;
+}
+/* -----------top section------------------ */
+.top-section {
+    background-image: url(/img/background.png);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+/*---------------HERO--------*/
+.hero {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 600px;
+    background: transparent; 
+}
+.hero-text {
+    max-width: 500px;
+    color: #ffffff;
+}
+.hero-text h1 {
+    font-size: 200px;
+    margin-bottom: 0;
+    margin-left: -500px;
+    font-weight: 900;
+}
+.hero-text p {
+    margin-bottom: 20px;
+    margin-left: -500px;
+    font-size: 30px;
+    font-weight: 400;
+    max-width: 700px;
+}
+.hero-text button {
+    padding: 40px 100px; 
+    margin-left: -500px;
+    margin-top: 200px;
+    border: none;
+    background: #a7d1d2;
+    cursor: pointer;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+/*-----------seccion 2---------*/
+.informacion {
+    text-align: center;
+    padding: 200px 400px ;
+}
+.informacion p {
+    margin-top: 20px;
+}
+    
+
+/* ---------seccion 3-------- */
+.productos {
+    padding: 200px;
+    text-align: center;
+    background: #a7d1d2;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 50px;
+}
+.cards img {
+    width: 150px;
+}
+.card button {
+    margin-top: 20px;
+    padding: 8px 10px;
+    background: orange;
+    border: none;
+    cursor: pointer;
+}
+
+/* -- -- ---------seccion 4------- -- -- */
+.reglas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;  
+  padding: 200px;
+  background-image: url(/img/bg-grid2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+}
+.rules-img img {
+    max-width: 400px;
+    width: 100%;
+}
+.rules-text {
+    max-width: 600px;
+    margin-bottom: 50px 60px;   
+}
+.rules-text p {
+    margin-top: 20px;
+}
+
+/* ------------pie de pagina----------- */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: #333;
+    color: white;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* -----------resposive--------- */
+@media (max-width: 768px) {
+    .top-section {
+        background-position: 70% center;
+    }
+    .header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        text-align: center;
+    }
+    .nav a {
+        font-size: 14px;
+    }
+    .hero {
+        height: auto;
+        justify-content: center;
+        text-align: center;
+        padding: 40px 20px;
+    }
+    .hero-text h1 {
+        font-size: 40px;
+    }
+}
