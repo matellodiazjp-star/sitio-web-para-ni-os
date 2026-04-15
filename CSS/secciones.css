@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 60px;
+    padding: 20px 400px;
     background: transparent;
 }
 .logo {
@@ -40,38 +40,41 @@ body {
 
 /*---------------HERO--------*/
 .hero {
-    height: 500px;
     display: flex;
+    height: 500px;
+    width: 100%;
     align-items: center;
-    padding: 600px;
+    padding: 410px;
     background: transparent; 
+    justify-content: space-between;
 }
 .hero-text {
-    max-width: 500px;
     color: #ffffff;
 }
 .hero-text h1 {
-    font-size: 200px;
-    margin-bottom: 0;
-    margin-left: -500px;
-    font-weight: 900;
+    font-size: 100px;
+    margin-bottom: 1px;
+    margin-left: -360px;
+    font-weight: 990;
 }
 .hero-text p {
     margin-bottom: 20px;
-    margin-left: -500px;
-    font-size: 30px;
+    margin-left: -360px;
+    font-size: 25px;
     font-weight: 400;
-    max-width: 700px;
+    max-width: 550px;
+    margin-top: 20px;
+    
 }
 .hero-text button {
-    padding: 40px 100px; 
-    margin-left: -500px;
-    margin-top: 200px;
+    padding: 10px 20px; 
+    margin-left: -360px;
+    margin-top: 100px;
     border: none;
     background: #a7d1d2;
     cursor: pointer;
-    font-size: 50px;
-    font-weight: 900;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 /*-----------seccion 2---------*/
@@ -82,7 +85,7 @@ body {
 .informacion p {
     margin-top: 20px;
 }
-    
+
 
 /* ---------seccion 3-------- */
 .productos {
