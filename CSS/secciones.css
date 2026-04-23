@@ -12,24 +12,28 @@ body {
 /*--------------seccion 1 ------------*/
 /*------------- header, parte superior------------ */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 400px;
-    background: transparent;
+   display: flex;
+   justify-content: space-between;
+   padding: 30px;
+  
 }
 .logo {
    font-weight: bold;
-   font-size: 30px;
+   font-size: 40px;
+   margin-right: auto;
 }
 .nav {
     display: flex;
-    gap: 50px;
+    gap: 100px;
+  
 }
 .nav a {
    text-decoration: none;
    color: black;
+   font-size: 30px;
+   font-weight: bold;
 }
+  
 /* -----------top section------------------ */
 .top-section {
     background-image: url(../img/background.png);
